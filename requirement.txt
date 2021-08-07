@@ -1,0 +1,13 @@
+#
+POST / ?email=&subject&template
+{
+	"Heading": (The name of course/trainig)
+	"Name":	(name of person getting cert)
+	"Body":	(what is this certiifcate for)
+	"Date": (date of cert issued)
+	"Signature":optional  (text)
+	"link":optinal(cloud/cdn/website link)
+}
+
+X-rapid-api-id
+X-rapi-api-key
